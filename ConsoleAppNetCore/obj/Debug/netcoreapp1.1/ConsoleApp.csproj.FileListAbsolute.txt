@@ -1,0 +1,9 @@
+D:\cloud\github\CSharp20Questions\ConsoleApp\bin\Debug\netcoreapp1.1\ConsoleApp.deps.json
+D:\cloud\github\CSharp20Questions\ConsoleApp\bin\Debug\netcoreapp1.1\ConsoleApp.runtimeconfig.json
+D:\cloud\github\CSharp20Questions\ConsoleApp\bin\Debug\netcoreapp1.1\ConsoleApp.runtimeconfig.dev.json
+D:\cloud\github\CSharp20Questions\ConsoleApp\bin\Debug\netcoreapp1.1\ConsoleApp.dll
+D:\cloud\github\CSharp20Questions\ConsoleApp\bin\Debug\netcoreapp1.1\ConsoleApp.pdb
+D:\cloud\github\CSharp20Questions\ConsoleApp\obj\Debug\netcoreapp1.1\ConsoleApp.csprojResolveAssemblyReference.cache
+D:\cloud\github\CSharp20Questions\ConsoleApp\obj\Debug\netcoreapp1.1\ConsoleApp.AssemblyInfo.cs
+D:\cloud\github\CSharp20Questions\ConsoleApp\obj\Debug\netcoreapp1.1\ConsoleApp.dll
+D:\cloud\github\CSharp20Questions\ConsoleApp\obj\Debug\netcoreapp1.1\ConsoleApp.pdb
