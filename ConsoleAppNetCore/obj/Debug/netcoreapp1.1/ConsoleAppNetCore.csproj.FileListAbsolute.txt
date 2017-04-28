@@ -6,3 +6,4 @@ D:\cloud\github\CSharp20Questions\ConsoleAppNetCore\bin\Debug\netcoreapp1.1\Cons
 D:\cloud\github\CSharp20Questions\ConsoleAppNetCore\obj\Debug\netcoreapp1.1\ConsoleAppNetCore.AssemblyInfo.cs
 D:\cloud\github\CSharp20Questions\ConsoleAppNetCore\obj\Debug\netcoreapp1.1\ConsoleAppNetCore.dll
 D:\cloud\github\CSharp20Questions\ConsoleAppNetCore\obj\Debug\netcoreapp1.1\ConsoleAppNetCore.pdb
+D:\cloud\github\CSharp20Questions\ConsoleAppNetCore\obj\Debug\netcoreapp1.1\ConsoleAppNetCore.csprojResolveAssemblyReference.cache
