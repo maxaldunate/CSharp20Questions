@@ -14,7 +14,8 @@ Microsoft Senior Content Publishing Manager
 
 ## Questions
 
-1. When do you use structs vs classes?.		Demonstrate the differences between structs and classes in C#, showing why you choose one over the other.
+1. When do you use structs vs classes?		
+Demonstrate the differences between structs and classes in C#, showing why you choose one over the other.
 
 2. How does one parse XML files?
 Demonstrate parsing a simple XML file to understand some of the .NET XML classes and methods.
