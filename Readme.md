@@ -1,19 +1,17 @@
 ﻿# Twenty C# questions answered
 
-From MVA
+### From MVA
 https://mva.microsoft.com/en-us/training-courses/twenty-c-questions-answered-8298
 
-By  
-
+### By
 Gerry O'Brien
-
 Microsoft ​Content Development Manager
-
 Paul Pardi
-
 Microsoft Senior Content Publishing Manager
 
-1. When do you use structs vs classes?
+## Questions
+
+1. When do you use structs vs classes?.
 Demonstrate the differences between structs and classes in C#, showing why you choose one over the other.
 
 2. How does one parse XML files?
