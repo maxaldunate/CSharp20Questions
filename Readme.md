@@ -4,10 +4,10 @@
 https://mva.microsoft.com/en-us/training-courses/twenty-c-questions-answered-8298
 
 ### By
-** Gerry O'Brien **
+Gerry O'Brien - 
 Microsoft Content Development Manager
-- - - -
-** Paul Pardi **
+
+Paul Pardi - 
 Microsoft Senior Content Publishing Manager
 - - - -
 
