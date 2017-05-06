@@ -7,55 +7,14 @@ namespace ConsoleAppNetCore
     {
         public static void Main(string[] args)
         {
-            //GetIndexInForEachLoop();
             Q01_StructureAndClasses.Run();
             Q01_StructureAndClasses.RunByRef();
             Q04_AssemblyLocation.Run();
+            Q12_GetIndex.Run();
             //ModifyConstructorParameter();
             //Q15_Enumeration.Run();
 
             Console.ReadKey();
-        }
-
-
-        public static void GetIndexInForEachLoop()
-        {
-            var curIdx = 0;
-            var counter = 0;
-
-            Write("Dictionary collection");
-            var diction = new System.Collections.Generic.Dictionary<string, string>
-            {
-                {"one","one"},
-                {"two","two"},
-                {"three","three"},
-                {"four","four"},
-                {"five","five"},
-                {"six","six"},
-                {"seven","seven"},
-            };
-
-            foreach (var obj in diction)
-            {
-                Write(counter);
-                counter++;
-            }
-
-            Write("List collection");
-            var strList = new System.Collections.Generic.List<string>
-            {
-                "one","two","three","four","five","six","seven"
-            };
-
-            foreach (var str in strList)
-            {
-                curIdx = strList.IndexOf(str);
-                Write(curIdx);
-            }
-
-            Write("Array collection");
-            Write("Identical of list, looking by IndexOf");
-
         }
 
         public static void ModifyConstructorParameter()
@@ -68,17 +27,7 @@ namespace ConsoleAppNetCore
             Console.WriteLine($"Inherited class name = '{inheritedClass.Name}'");
         }
 
-        public static string Write(string msg = "")
-        {
-            Console.WriteLine(msg);
-            return msg;
-        }
 
-        public static int Write(int msg)
-        {
-            Write(msg.ToString());
-            return msg;
-        }
 
     }
 }
