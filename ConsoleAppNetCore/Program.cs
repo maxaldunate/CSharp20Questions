@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleAppNetCore.Questions;
 
 namespace ConsoleAppNetCore
 {
@@ -13,8 +14,11 @@ namespace ConsoleAppNetCore
             //GetAssemblyLocation();
             //ModifyConstructorParameter();
 
+            Q15_Enumeration.Run();
+
             Console.ReadKey();
         }
+
 
         public static void GetIndexInForEachLoop()
         {
