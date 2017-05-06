@@ -12,7 +12,8 @@ namespace ConsoleAppNetCore
             //Q04_AssemblyLocation.Run();
             //Q05_BaseAndInheritetClass.Run();
             //Q12_GetIndex.Run();
-            Q15_Enumeration.Run();
+            //Q15_Enumeration.Run();
+            Q17_RoundDecimal.Run();
 
             Console.ReadKey();
         }

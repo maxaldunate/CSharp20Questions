@@ -17,6 +17,9 @@ namespace ConsoleAppNetCore.Questions
             string str = Enum.GetName(typeof(AuthMethod), auth);
             Console.WriteLine(str);
 
+            var max = auth.ToString();
+            Console.WriteLine(max);
+
             string str2 = AuthMethod.Forms.ToString();
             Console.WriteLine(str);
         }

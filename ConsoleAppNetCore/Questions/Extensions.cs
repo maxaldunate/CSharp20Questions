@@ -13,5 +13,10 @@ namespace ConsoleAppNetCore.Questions
         {
             msg.ToString().ToConsole();
         }
+
+        public static void ToConsole(this decimal msg)
+        {
+            msg.ToString().ToConsole();
+        }
     }
 }
