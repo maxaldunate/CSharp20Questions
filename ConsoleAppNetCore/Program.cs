@@ -13,7 +13,8 @@ namespace ConsoleAppNetCore
             //Q05_BaseAndInheritetClass.Run();
             //Q12_GetIndex.Run();
             //Q15_Enumeration.Run();
-            Q17_RoundDecimal.Run();
+            //Q17_RoundDecimal.Run();
+            Q18_RemoveDuplicates.Run();
 
             Console.ReadKey();
         }
