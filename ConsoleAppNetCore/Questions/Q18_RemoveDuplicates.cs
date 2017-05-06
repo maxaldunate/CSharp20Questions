@@ -19,18 +19,14 @@ namespace ConsoleAppNetCore.Questions
             foreach (var s in arr)
                 if (!myStrList.Contains(s))
                     myStrList.Add(s);
-            PrintList(myStrList);
+            myStrList.ToConsole();
 
             "".ToConsole();
 
             "Using Linq".ToConsole();
             var strL = arr.Distinct().ToList();
-            PrintList(strL);
+            strL.ToConsole();
         }
 
-        private static void PrintList(List<string> list)
-        {
-            list.ForEach(x => x.ToConsole());
-        }
     }
 }

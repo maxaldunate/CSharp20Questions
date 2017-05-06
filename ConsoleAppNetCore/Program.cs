@@ -14,7 +14,8 @@ namespace ConsoleAppNetCore
             //Q12_GetIndex.Run();
             //Q15_Enumeration.Run();
             //Q17_RoundDecimal.Run();
-            Q18_RemoveDuplicates.Run();
+            //Q18_RemoveDuplicates.Run();
+            Q19_DictSorting.Run();
 
             Console.ReadKey();
         }
