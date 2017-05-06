@@ -8,9 +8,9 @@ namespace ConsoleAppNetCore
         public static void Main(string[] args)
         {
             //GetIndexInForEachLoop();
-            Q1Run.Run();
-            Q1Run.RunByRef();
-            //GetAssemblyLocation();
+            Q01_StructureAndClasses.Run();
+            Q01_StructureAndClasses.RunByRef();
+            Q04_AssemblyLocation.Run();
             //ModifyConstructorParameter();
             //Q15_Enumeration.Run();
 
@@ -56,17 +56,6 @@ namespace ConsoleAppNetCore
             Write("Array collection");
             Write("Identical of list, looking by IndexOf");
 
-        }
-
-        public static void GetAssemblyLocation()
-        {
-            var assem = System.Reflection.Assembly.GetEntryAssembly().Location;
-            var assemIo = System.IO.Path.GetDirectoryName(assem);
-
-            Console.WriteLine("Assembly location");
-            Console.WriteLine(assem);
-            Console.WriteLine("Path Assembly location {assem}");
-            Console.WriteLine(assemIo);
         }
 
         public static void ModifyConstructorParameter()

@@ -2,7 +2,7 @@
 
 namespace ConsoleAppNetCore.Questions
 {
-    public class Q1Run
+    public class Q01_StructureAndClasses
     {
         public static void RunByRef()
         {
