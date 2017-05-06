@@ -3,11 +3,31 @@ using System.Security.Cryptography;
 using System.Text;
 using System.IO;
 
-namespace ConsoleAppFw45
+namespace ConsoleAppFw45.Questions
 {
-    public class DesEncrypt
+    public class Q11_DesEncrypt
     {
-        public static TripleDES CreateDES(string key)
+        public static void Run()
+        {
+            var texto = "Este es el texto que desaseamos encryptar";
+            texto.ToConsole();
+
+            var pwd = "P@$$w0rd";
+
+            var testEncrypt = new Q11_DesEncrypt();
+
+            "********** Encrypted Text * *********".ToConsole();
+            var encText = testEncrypt.EncryptString(texto, pwd);
+            encText.ToConsole();
+            "".ToConsole();
+
+            "********** Decrypted Text * *********".ToConsole();
+            var plain = testEncrypt.EncryptString(encText, pwd);
+            plain.ToConsole();
+            "".ToConsole();
+        }
+
+        private static TripleDES CreateDES(string key)
         {
             var md5 = MD5.Create();
             var des = TripleDES.Create();
@@ -17,7 +37,7 @@ namespace ConsoleAppFw45
             return des;
         }
 
-        public string EncryptString(string plainText, string password)
+        private string EncryptString(string plainText, string password)
         {
             byte[] plainTextBytes = Encoding.Unicode.GetBytes(plainText);
             var myStream = new MemoryStream();
@@ -28,7 +48,7 @@ namespace ConsoleAppFw45
             return Convert.ToBase64String(myStream.ToArray());
         }
 
-        public string DecryptString(string encryptedText, string password)
+        private string DecryptString(string encryptedText, string password)
         {
             byte[] encryptedTextBytes = Convert.FromBase64String(encryptedText);
             var myStream = new MemoryStream();
