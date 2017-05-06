@@ -6,7 +6,7 @@ namespace ConsoleAppNetCore.Questions
     {
         public static void Run()
         {
-            decimal val = 65476452342.123123123M;
+            decimal val = 65476452342.126123123M;
 
             "Raw Value".ToConsole();
             val.ToConsole();
